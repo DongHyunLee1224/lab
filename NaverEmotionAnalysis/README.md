@@ -10,12 +10,12 @@ BERT(Bidirectional Encoder Representations from Transformers)는 구글이 개�
 - 참고 코드 : https://github.com/deepseasw/bert-naver-movie-review
 
 # **실행 방법**
-1.   개인 구글 드라이브에 아래 파일을 업로드 합니다.
-    - Naver_emotion_analysis.ipynb
-    - ko_data.csv
+1.   개인 구글 드라이브에 아래 파일을 업로드 합니다. 1
+     * Naver_emotion_analysis.ipynb 1a
+     * ko_data.csv 1b
 
-2.   Naver_emotion_analysis.ipynb 파일을 Colab을 통하여 편집 합니다.
-    - 아래 DATA_PATH 부분에 본인이 업로드 한 경로 지정 합니다.
+2.   Naver_emotion_analysis.ipynb 파일을 Colab을 통하여 편집 합니다. 2
+     * 아래 DATA_PATH 부분에 본인이 업로드 한 경로 지정 합니다. 2a
     ![DATA_PATH](https://user-images.githubusercontent.com/76559418/103089424-403ccb80-4631-11eb-8fb4-a97333a9c67f.JPG)
     
 3. 상단 메뉴에서 런타임 -> 런타임 유형 -> 하드웨어 가속기 -> GPU로 변경 후 저장 합니다.
