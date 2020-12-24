@@ -15,6 +15,7 @@ BERT(Bidirectional Encoder Representations from Transformers)는 구글이 개�
     * ko_data.csv
 
 2.   Naver_emotion_analysis.ipynb 파일을 Colab을 통하여 편집 합니다.
+    
     * 아래 DATA_PATH 부분에 본인이 업로드 한 경로 지정 합니다.
     ![DATA_PATH](https://user-images.githubusercontent.com/76559418/103089424-403ccb80-4631-11eb-8fb4-a97333a9c67f.JPG)
     
