@@ -13,9 +13,24 @@ BERT 모형을 활용해, 미드 Friends의 대화 내 화자의 감정을 분�
 
   - 데이터 출처 : http://doraemon.iis.sinica.edu.tw/emotionlines/index.html
   - 참고코드 : https://colab.research.google.com/drive/1EMzEfTYjYLgEHjCCP1vEr9oOZLXMocGh?usp=sharing 
+ 
+ 
+# **데이터**
+  - 파일은 speaker , utterance , emotion , annotation 4개로 구성 되어 있으며 8개의 감정으로 분류 되어 있습니다.
+  
+    - speaker : 화자
+    - utterance : 대화 내용
+    - emotion : 대화내용으로 분류된 감정 label  
+    
+  - 전체 14,503개의 대화 내용이 있습니다.  
+  
+    - friends_train.json : 10,561
+    - friends_dev.json : 1,178
+    - friends_test.json : 2,764
 
 # **실행 방법**
-1.   개인 구글 드라이브에 아래 파일을 업로드 합니다. 
+1.   개인 구글 드라이브에 아래 파일을 업로드 합니다.  
+
      * Friends_emotion_analysis.ipynb 
      * en_data.csv
      * friends_train.json
