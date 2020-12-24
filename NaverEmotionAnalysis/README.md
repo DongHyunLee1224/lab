@@ -11,12 +11,25 @@ bert-base-multilingual-cased 모델은 한국어 포함 104개의 언어처리�
 - 데이터 출처 : https://github.com/e9t/nsmc.git)
 - 참고 코드 : https://github.com/deepseasw/bert-naver-movie-review
 
+# **데이터**
+ - 파일은 id,document,label 3개의 컬럼으로 구분 되어 있습니다.
+    - id : 리뷰어의 id
+    - document : 리뷰어가 작성한 리뷰 내용
+    - label : 리뷰 내용의 감정 분류 (0:부정 , 1:긍정)
+  
+  - 전체 200,000개 리뷰로 구성되어 있습니다.
+    - ratings.txt : 전체 200,000개 리뷰
+    - ratings_test.txt : 테스트를 위한 50,000개 리뷰
+    - ratings_train.txt : 학습을 위한 150,000개 리뷰
+
 # **실행 방법**
 1.   개인 구글 드라이브에 아래 파일을 업로드 합니다. 
+
      * Naver_emotion_analysis.ipynb 
      * ko_data.csv 
 
 2.   Naver_emotion_analysis.ipynb 파일을 Colab을 통하여 편집 합니다. 
+
      * 아래 DATA_PATH 부분에 본인이 업로드 한 경로 지정 합니다. 
     ![DATA_PATH](https://user-images.githubusercontent.com/76559418/103089424-403ccb80-4631-11eb-8fb4-a97333a9c67f.JPG)
     
