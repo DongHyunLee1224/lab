@@ -8,7 +8,7 @@ BERT 모델을 이용하여 한글로 된 Naver 영화 리뷰를 분석 하고 �
 이 모델은 bert-base-multilingual-cased 모델을 사용 하였습니다.  
 bert-base-multilingual-cased 모델은 한국어 포함 104개의 언어처리가 가능한 모델로 단어 사전의 크기가 11만개가 넘습니다.
 
-- 데이터 출처 : https://github.com/e9t/nsmc.git)
+- 데이터 출처 : https://github.com/e9t/nsmc.git
 - 참고 코드 : https://github.com/deepseasw/bert-naver-movie-review
 
 # **데이터**
